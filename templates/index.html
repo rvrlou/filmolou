@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ma Filmothèque</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+</head>
+<body>
+    <h1>les filmes que j'ai regardée</h1>
+    <h2> je voulais trouver un nom drole et acrocheur mais j'ai pas trouvé</h2>
+
+    <!-- Filtre par genre -->
+    <select id="genreFilter" onchange="filterByGenre()">
+        <option value="all">Tous</option>
+        <option value="Drame">Drame</option>
+        <option value="Guerre">Guerre</option>
+        <option value="Action">Action</option>
+        <option value="Thriller">Thriller</option>
+        <option value="Comédie">Comédie</option>
+        <option value="Romance">Romance</option>
+        <option value="Science-Fiction">Science-Fiction</option>
+        <option value="Policier">Policier</option>
+        <option value="Animation">Animation</option>
+        <option value="Comédie dramatique">Documentaire</option>
+    </select>
+
+    <!-- Filtre par plateforme -->
+    <select id="platformeFilter" onchange="filterByPlatform()">
+        <option value="all">Toutes les plateformes</option>
+        <option value="Netflix">Netflix</option>
+        <option value="Disney+">Disney+</option>
+        <option value="Prime Video">Prime Video</option>
+        <option value="Canal+">Canal+</option>
+        <option value="Payant">Payant</option>
+        <option value="Paramont+">Paramont+</option>
+        <option value="HBO Max">HBO Max</option>
+        <option value="Apple TV+">Apple TV+</option>
+    </select>
+
+    <!-- Liste des films -->
+    <div id="films-container">
+        {% for film in films %}
+        <div class="film" 
+             data-genre="{{ film.genre | join(',') }}" 
+             data-platform="{{ film.plateforme | join(',') }}" 
+             onclick="toggleDescription(this)">
+            <img src="{{ url_for('static', filename='images/' + film.image) }}" alt="{{ film.titre }}">
+            <h2>{{ film.titre }}</h2>
+            <p>Année : {{ film.annee }}</p>
+            <p>Plateforme : {{ film.plateforme | join(', ') }}</p>
+            <div class="description">{{ film.description }}</div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
