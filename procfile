@@ -1,0 +1,4 @@
+web: gunicorn app:app
+git add .
+git commit -m "Ready for Render deployment"
+git push origin main
