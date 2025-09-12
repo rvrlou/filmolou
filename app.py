@@ -1,8 +1,16 @@
 from flask import Flask, render_template
+import os
 
 app = Flask(__name__)
 
-films = [
+
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+if __name__ == "__main__":
+    app.run(debug=True)
+films =[
     {
         "titre": "Fury",
         "annee": 2014,
@@ -10,6 +18,38 @@ films = [
         "plateforme": ["Netflix"],
         "image": "fury.jpg",
         "description": "Pendant les derniers mois de la Seconde Guerre mondiale, un équipage de char américain dirigé par le sergent 'Wardaddy' (Brad Pitt) affronte les forces nazies dans une mission désespérée derrière les lignes ennemies."
+    },
+     {
+        "titre": "Will Hunting",
+        "annee": 1997,
+        "genre": ["Drame"],
+        "plateforme": ["Netflix"],
+        "image": "WillHunting.jpg",
+        "description": "Will Hunting, un jeune homme brillant mais perturbé, travaille comme concierge au MIT. Lorsqu'il résout un problème mathématique complexe, un professeur le prend sous son aile et l'aide à surmonter ses démons intérieurs."
+    },
+    {
+        "titre": "Will Hunting",
+        "annee": 1997,
+        "genre": ["Drame"],
+        "plateforme": ["Netflix"],
+        "image": "WillHunting.jpg",
+        "description": "Will Hunting, un jeune homme brillant mais perturbé, travaille comme concierge au MIT. Lorsqu'il résout un problème mathématique complexe, un professeur le prend sous son aile et l'aide à surmonter ses démons intérieurs."
+    },
+      {
+        "titre": "Les Larmes du soleil",
+        "annee": 2003,
+        "genre": ["Guerre", "Drame", "Action"],
+        "plateforme": ["Payant"],  # ✅ Ajout de la plateforme
+        "image": "Les Larmes du soleil",
+        "description": "Un groupe de Navy SEALs est envoyé au Nigéria pour sauver une médecin américaine. Ils décident de protéger également des civils africains, mettant leur mission en danger."
+    },
+    {
+        "titre": "The Revenant",
+        "annee": 2015,
+        "genre": ["Drame","Aventure,"],
+        "plateforme": ["Disney+"],  # ✅ Ajout de la plateforme
+        "image": "therevenant.jpg",
+        "description": "Hugh Glass, un trappeur du XIXe siècle, survit à une attaque d'ours et à une trahison. Il lutte pour sa survie et cherche à se venger de ceux qui l'ont abandonné."
     },
     {
         "titre": "Le brio",
@@ -49,8 +89,7 @@ films = [
         "image": "Zodiac.jpg",
         "description": "Inspiré d’une histoire vraie, un dessinateur de presse et deux journalistes enquêtent sur le mystérieux tueur du Zodiac qui terrorisait San Francisco dans les années 60-70."
     }
-
-]
+    ]
 
 @app.route('/')
 def index():
