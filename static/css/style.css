@@ -1,10 +1,8 @@
 /* === GLOBAL === */
 body {
-    font-family: 'Outfit', cursivegit add .
-git commit -m "Mise à jour site : nouvelle police Outfit"
-git push origin main;
+    font-family: 'Outfit', cursive;
     color: #d3d3d3;
-    background-color: #332b2b;
+    background-color: #000000;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -13,14 +11,14 @@ git push origin main;
 h1 {
     font-family: 'Aboreto', cursive;
     font-weight: normal;
-    margin: 20px 0;
+    margin: 150px 0;
 }
 
 h2 {
     font-family: 'Aboreto', cursive;
     font-weight: normal;
     font-size: smaller;
-    margin: 10px 0;
+    margin: 50px 0;
 }
 
 .special-title {
