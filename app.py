@@ -17,7 +17,7 @@ films = [
         "annee": 1997,
         "genre": ["Drame"],
         "plateforme": ["Netflix"],
-        "image": "WillHunting.jpg",
+        "image": "Willhunting.jpg",
         "description": "Will Hunting, un jeune homme brillant mais perturbé, travaille comme concierge au MIT. Lorsqu'il résout un problème mathématique complexe, un professeur le prend sous son aile et l'aide à surmonter ses démons intérieurs."
     },
     {
@@ -25,7 +25,7 @@ films = [
         "annee": 2003,
         "genre": ["Guerre", "Drame", "Action"],
         "plateforme": ["Payant"],
-        "image": "LesLarmesDuSoleil.jpg",
+        "image": "Leslarmesdusoleil.jpg",
         "description": "Un groupe de Navy SEALs est envoyé au Nigéria pour sauver une médecin américaine. Ils décident de protéger également des civils africains, mettant leur mission en danger."
     },
     {
@@ -41,7 +41,7 @@ films = [
         "annee": 2021,
         "genre": ["Thriller"],
         "plateforme": ["Payant"],
-        "image": "BoiteNoire.jpg",
+        "image": "Boiteoire.jpg",
         "description": "Après un crash aérien, un technicien de l'aviation civile découvre des anomalies dans les boîtes noires et mène une enquête secrète pour découvrir la vérité."
     },
     {
@@ -49,16 +49,8 @@ films = [
         "annee": 2018,
         "genre": ["Animation", "Action"],
         "plateforme": ["Amazon Prime Video"],
-        "image": "Spiderman.jpg ",
+        "image": "Spiderman.jpg",
         "description": "Miles Morales devient Spider-Man et rencontre d'autres versions de Spider-Man venant de dimensions parallèles pour combattre un ennemi commun."
-    },
-    {
-        "titre": "PRISONERS",
-        "annee": 2013,
-        "genre": ["Thriller", "Policier"],
-        "plateforme": ["Amazon Prime Video"],
-        "image": "Prisoners.jpg",
-        "description": "Après la disparition de sa fille et de son amie, un père dévasté se brouille avec le policier chargé de l'affaire et décide de prendre les choses en main."
     },
     {
         "titre": "PRISONERS",
@@ -73,7 +65,7 @@ films = [
         "annee": 2011,
         "genre": ["Drame", "Thriller"],
         "plateforme": ["Netflix"],
-        "image": "Silenced.jpg",
+        "image": "silenced.jpg",
         "description": "Basé sur des faits réels, ce film dénonce les abus sexuels et la corruption dans un internat pour enfants sourds en Corée du Sud."
     },
      {
@@ -97,7 +89,7 @@ films = [
         "annee": 1998,
         "genre": ["Social", "Drame"],
         "plateforme": ["Payant"],
-        "image": "AmericanHistoryX.jpg",
+        "image": "AmericanhistoryX.jpg",
         "description": "Derek Vinyard, skinhead néonazi, purge une peine de prison pour un meurtre. Transformé, il tente d’empêcher son frère de suivre le même chemin de haine et d’extrémisme."
     },
     {
@@ -113,7 +105,7 @@ films = [
         "annee": 2015,
         "genre": ["Comédie", "dramatique"],
         "plateforme": ["Payant"],
-        "image": "Nous3ouRien.jpg",
+        "image": "Nous3ourien.jpg",
         "description": "Inspiré de l’histoire vraie du père de Kheiron : Hibat Tabib, militant démocrate en Iran. Le film retrace son combat politique, son emprisonnement, puis l’exil de sa famille vers la France."
     },
     {
