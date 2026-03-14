@@ -12,7 +12,7 @@ h1 {h1 {
     font-family: 'Aboreto', cursive;
     font-weight: normal;
     color: #ffffff; /* couleur orange pour le titre */
-    font-size: 15em;  /* taille du titre */
+     font-size: 5em !important; /* taille du titre */
     margin: 150px 0;
 }
 }
