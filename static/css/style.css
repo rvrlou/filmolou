@@ -1,6 +1,6 @@
 /* === GLOBAL === */
 body {
-    font-family: 'Outfit', cursive;
+    font-family: 'Outfit', sans-serif;
     color: #d3d3d3;
     background-color: #000000;
     text-align: center;
@@ -8,10 +8,13 @@ body {
     padding: 0;
 }
 
-h1 {
+h1 {h1 {
     font-family: 'Aboreto', cursive;
     font-weight: normal;
+    color: #ffffff; /* couleur orange pour le titre */
+    font-size: 3em;  /* taille du titre */
     margin: 150px 0;
+}
 }
 
 h2 {
