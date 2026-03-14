@@ -37,6 +37,46 @@ films = [
         "description": "Hugh Glass, un trappeur du XIXe siècle, survit à une attaque d'ours et à une trahison. Il lutte pour sa survie et cherche à se venger de ceux qui l'ont abandonné."
     },
     {
+        "titre": "Boîte noire",
+        "annee": 2021,
+        "genre": ["Thriller"],
+        "plateforme": ["Payant"],
+        "image": "BoiteNoire.jpg",
+        "description": "Après un crash aérien, un technicien de l'aviation civile découvre des anomalies dans les boîtes noires et mène une enquête secrète pour découvrir la vérité."
+    },
+    {
+        "titre": "Spider-Man: New Generation",
+        "annee": 2018,
+        "genre": ["Animation", "Action"],
+        "plateforme": ["Amazon Prime Video"],
+        "image": "Spiderman.jpg ",
+        "description": "Miles Morales devient Spider-Man et rencontre d'autres versions de Spider-Man venant de dimensions parallèles pour combattre un ennemi commun."
+    },
+    {
+        "titre": "PRISONERS",
+        "annee": 2013,
+        "genre": ["Thriller", "Policier"],
+        "plateforme": ["Amazon Prime Video"],
+        "image": "Prisoners.jpg",
+        "description": "Après la disparition de sa fille et de son amie, un père dévasté se brouille avec le policier chargé de l'affaire et décide de prendre les choses en main."
+    },
+       {
+        "titre": "Silenced",
+        "annee": 2011,
+        "genre": ["Drame", "Thriller"],
+        "plateforme": ["Netflix"],
+        "image": "Silenced.jpg",
+        "description": "Basé sur des faits réels, ce film dénonce les abus sexuels et la corruption dans un internat pour enfants sourds en Corée du Sud."
+    },
+     {
+        "titre": "Sauver ou périr   ",
+        "annee": 2018,
+        "genre": ["Drame",],
+        "plateforme": ["Netflix"],
+        "image": "sauverouperir.jpg",
+        "description": "Un pompier parisien, grièvement blessé lors d'une intervention, lutte pour retrouver sa place dans son équipe et sa vie personnelle."    
+    },
+    {
         "titre": "Le Brio",
         "annee": 2017,
         "genre": ["Comédie", "Drame"],
@@ -63,7 +103,7 @@ films = [
     {
         "titre": "Nous trois ou rien",
         "annee": 2015,
-        "genre": ["Comédie dramatique"],
+        "genre": ["Comédie", "dramatique"],
         "plateforme": ["Payant"],
         "image": "Nous3ouRien.jpg",
         "description": "Inspiré de l’histoire vraie du père de Kheiron : Hibat Tabib, militant démocrate en Iran. Le film retrace son combat politique, son emprisonnement, puis l’exil de sa famille vers la France."
@@ -75,7 +115,30 @@ films = [
         "plateforme": ["Paramount+", "HBO Max"],
         "image": "Zodiac.jpg",
         "description": "Inspiré d’une histoire vraie, un dessinateur de presse et deux journalistes enquêtent sur le mystérieux tueur du Zodiac qui terrorisait San Francisco dans les années 60-70."
-    }
+    },
+#ajouter les photo
+    {    "titre": "La ligne verte",
+        "annee": 1999,
+        "genre": ["Drame"],
+        "plateforme": ["Payant"],
+        "image": "Laligne.jpg",
+        "description": "Un gardien de prison découvre que l'un de ses détenus possède des pouvoirs surnaturels qui pourraient changer le cours de sa vie."
+    },
+     {    "titre": "Polisse",
+        "annee": 2011,
+        "genre": ["Drame","Policier"],
+        "plateforme": ["Payant"],
+        "image": "polisse.jpg",
+        "description": "Au sein de la Brigade de Protection des Mineurs, des policiers confrontent quotidiennement la violence, la souffrance et leurs propres limites."
+    },
+     {    "titre": "Les blancs ne savent pas sauter",
+        "annee": 2011,
+        "genre": ["Comeddie"],
+        "plateforme": ["Payant"],
+        "image": "lesblancs.jpg",
+        "description": "Au sein de la Brigade de Protection des Mineurs, des policiers confrontent quotidiennement la violence, la souffrance et leurs propres limites."
+    }     
+
 ]
 
 # Route principale
