@@ -60,6 +60,14 @@ films = [
         "image": "Prisoners.jpg",
         "description": "Après la disparition de sa fille et de son amie, un père dévasté se brouille avec le policier chargé de l'affaire et décide de prendre les choses en main."
     },
+    {
+        "titre": "PRISONERS",
+        "annee": 2013,
+        "genre": ["Thriller", "Policier"],
+        "plateforme": ["Amazon Prime Video"],
+        "image": "Prisoners.jpg",
+        "description": "Après la disparition de sa fille et de son amie, un père dévasté se brouille avec le policier chargé de l'affaire et décide de prendre les choses en main."
+    },
        {
         "titre": "Silenced",
         "annee": 2011,
