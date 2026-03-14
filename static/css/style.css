@@ -103,16 +103,15 @@ select:hover {
     margin: 12px 0 6px;
 }
 
-.film p {
-    font-size: 14px;
-    margin: 0;
+.film {
+    position: relative; /* important pour que l'overlay soit relatif à la carte */
 }
 
-/* === DESCRIPTION (dans le flux) === */
 .film .description {
-    display: none;
+    position: absolute;   /* overlay au-dessus */
+    bottom: 0;            /* ou top: 0 selon où tu veux l’afficher */
+    left: 0;
     width: 100%;
-    margin-top: 10px;
     font-size: 14px;
     text-align: left;
     background: rgba(132, 117, 117, 0.95);
@@ -121,12 +120,14 @@ select:hover {
     border-radius: 6px;
     box-sizing: border-box;
     opacity: 0;
-    transform: translateY(-10px);
-    transition: all 0.3s ease;
+    transform: translateY(100%); /* départ en bas de la carte */
+    transition: all 0.5s ease;
+    z-index: 10; /* au-dessus des autres éléments */
+    pointer-events: none; /* pour éviter de bloquer le hover */
 }
 
 .film:hover .description {
-    display: block;
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0); /* déroulé */
+    pointer-events: auto;
 }

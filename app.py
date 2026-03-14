@@ -25,7 +25,7 @@ films = [
         "annee": 2003,
         "genre": ["Guerre", "Drame", "Action"],
         "plateforme": ["Payant"],
-        "image": "Leslarmesdusoleil.jpg",
+        "image": "leslarmesdusoleil.jpg",
         "description": "Un groupe de Navy SEALs est envoyé au Nigéria pour sauver une médecin américaine. Ils décident de protéger également des civils africains, mettant leur mission en danger."
     },
     {
@@ -41,7 +41,7 @@ films = [
         "annee": 2021,
         "genre": ["Thriller"],
         "plateforme": ["Payant"],
-        "image": "Boiteoire.jpg",
+        "image": "boitenoire.jpg",
         "description": "Après un crash aérien, un technicien de l'aviation civile découvre des anomalies dans les boîtes noires et mène une enquête secrète pour découvrir la vérité."
     },
     {
@@ -49,7 +49,7 @@ films = [
         "annee": 2018,
         "genre": ["Animation", "Action"],
         "plateforme": ["Amazon Prime Video"],
-        "image": "Spiderman.jpg",
+        "image": "spiderman.jpg",
         "description": "Miles Morales devient Spider-Man et rencontre d'autres versions de Spider-Man venant de dimensions parallèles pour combattre un ennemi commun."
     },
     {
@@ -89,7 +89,7 @@ films = [
         "annee": 1998,
         "genre": ["Social", "Drame"],
         "plateforme": ["Payant"],
-        "image": "AmericanhistoryX.jpg",
+        "image": "Americanhistoryx.jpg",
         "description": "Derek Vinyard, skinhead néonazi, purge une peine de prison pour un meurtre. Transformé, il tente d’empêcher son frère de suivre le même chemin de haine et d’extrémisme."
     },
     {
@@ -121,7 +121,7 @@ films = [
         "annee": 1999,
         "genre": ["Drame"],
         "plateforme": ["Payant"],
-        "image": "Laligne.jpg",
+        "image": "laligne.jpg",
         "description": "Un gardien de prison découvre que l'un de ses détenus possède des pouvoirs surnaturels qui pourraient changer le cours de sa vie."
     },
      {    "titre": "Polisse",
@@ -137,8 +137,23 @@ films = [
         "plateforme": ["Payant"],
         "image": "lesblancs.jpg",
         "description": "Au sein de la Brigade de Protection des Mineurs, des policiers confrontent quotidiennement la violence, la souffrance et leurs propres limites."
-    }     
-
+    },
+    {
+    "titre": "Je verrai toujours vos visages",
+    "annee": 2023,
+    "genre": ["Drame"],
+    "plateforme": ["Canal+", "Apple TV+"],
+    "image": "jever.jpg",
+    "description": "Un film dramatique français explorant la justice réparatrice en suivant victimes et auteurs d’infractions qui tentent de dialoguer et de se reconstruire après des actes traumatisants." 
+},
+{
+    "titre": "Peur primale",
+    "annee": 1996,
+    "genre": ["Drame", "Policier", "Thriller"],
+    "plateforme": ["Paramount+"],
+    "image": "peurprimal.jpg",
+    "description": "Un brillant avocat défend un jeune homme accusé du meurtre d’un archevêque et découvre une affaire pleine de manipulations et de vérités choquantes." 
+}
 ]
 
 # Route principale
