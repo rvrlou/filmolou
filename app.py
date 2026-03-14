@@ -139,6 +139,14 @@ films = [
         "description": "Au sein de la Brigade de Protection des Mineurs, des policiers confrontent quotidiennement la violence, la souffrance et leurs propres limites."
     },
     {
+    "titre": "Caddo Lake",
+    "annee": 2024,
+    "genre": ["Drame", "Thriller"],
+    "plateforme": ["HBO MAX"],
+    "image": "caddo.jpg",
+    "description": "Après la disparition mystérieuse d’une petite fille, une connexion inquiétante s’établit avec d’anciennes affaires de meurtres et d’énigmes non résolues." 
+},
+    {
     "titre": "Je verrai toujours vos visages",
     "annee": 2023,
     "genre": ["Drame"],
