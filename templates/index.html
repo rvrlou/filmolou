@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <title>Ma Filmothèque</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
@@ -13,8 +16,8 @@
 
 </head>
 <body>
-    <h1>les films que j'ai regardés</h1>
-    <h2> je voulais trouver un nom drole et acrocheur mais j'ai pas trouvé</h2>
+    <h1>Mon catalogue de films</h1>
+    <h2>les films que j'ai regardés</h2>
 
     <!-- Filtre par genre -->
     <select id="genreFilter" onchange="filterByGenre()">

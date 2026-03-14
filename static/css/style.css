@@ -1,8 +1,10 @@
 /* === GLOBAL === */
 body {
-    font-family: 'Aboreto', cursive;
-    color: #fff;
-    background-color: #5f4a4a;
+    font-family: 'Outfit', cursivegit add .
+git commit -m "Mise à jour site : nouvelle police Outfit"
+git push origin main;
+    color: #d3d3d3;
+    background-color: #332b2b;
     text-align: center;
     margin: 0;
     padding: 0;
