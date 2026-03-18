@@ -153,6 +153,13 @@ films = [
     "plateforme": ["Canal+", "Apple TV+"],
     "image": "jever.jpg",
     "description": "Un film dramatique français explorant la justice réparatrice en suivant victimes et auteurs d’infractions qui tentent de dialoguer et de se reconstruire après des actes traumatisants." 
+},{
+    "titre": "Je verrai toujours vos visages",
+    "annee": 2023,
+    "genre": ["Drame"],
+    "plateforme": ["Canal+", "Apple TV+"],
+    "image": "jever.jpg",
+    "description": "Un film dramatique français explorant la justice réparatrice en suivant victimes et auteurs d’infractions qui tentent de dialoguer et de se reconstruire après des actes traumatisants." 
 },
 {
     "titre": "Peur primale",
